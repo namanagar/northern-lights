@@ -1,0 +1,154 @@
+/* This comment is
+ * several lines long.
+ * since it uses the CSS comment syntax,
+ * it will appear in the CSS output. */
+body {
+  padding-top: 70px;
+  background-image: url(https://sunsetwestphoria.files.wordpress.com/2015/06/16658111180_7911b6fc3d_o.jpg);
+  background-position: 50% 50%;
+  font-family: "Montserrat", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px; }
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center; }
+  @media (min-width: 768px) {
+    p {
+      text-align: justify; } }
+
+.text-center {
+  text-align: center; }
+
+.custom-container, .accent-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.accent-container {
+  width: 100%;
+  background-color: #006137;
+  margin-bottom: 45px; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
+.icon-row {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap; }
+  .icon-row i, .icon-row h2, .icon-row p {
+    color: white; }
+  .icon-row i {
+    font-size: 5em;
+    line-height: 100px; }
+  .icon-row p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal; }
+  .icon-row .logo-text-pair {
+    padding-top: 20px;
+    flex-grow: 1;
+    max-width: 250px; }
+
+#navbar-white {
+  background-color: gray;
+  z-index: 9999; }
+  #navbar-white .navbar-nav li a {
+    text-align: right;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase; }
+    #navbar-white .navbar-nav li a:hover {
+      background-color: #ebedeb; }
+  #navbar-white .navbar-nav .open a {
+    background-color: white; }
+
+.navbar-fixed-top .nav {
+  padding: 15px 0; }
+.navbar-fixed-top .navbar-brand {
+  padding: 0 15px; }
+  @media (min-width: 768px) {
+    .navbar-fixed-top .navbar-brand {
+      padding: 15px 0; } }
+
+.icon-bar {
+  background-color: black !important; }
+
+.dropdown-menu {
+  box-shadow: none; }
+  .dropdown-menu li a {
+    color: white !important;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+#welcome-section h1 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    #welcome-section h1 {
+      font-size: 4.5em; } }
+#welcome-section p {
+  margin-bottom: 50px; }
+
+#myCarousel {
+  width: 100%;
+  padding-top: 30px;
+  margin: auto;
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    #myCarousel {
+      width: 60%; } }
+
+#profile-col {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around; }
+  #profile-col h3 {
+    font-size: 2.35em;
+    line-height: 25px; }
+  #profile-col .profile-pair {
+    margin-bottom: 30px; }
+    #profile-col .profile-pair img {
+      float: left;
+      width: 100%;
+      margin-bottom: 15px;
+      height: auto; }
+      @media (min-width: 768px) {
+        #profile-col .profile-pair img {
+          width: 25%; } }
+    #profile-col .profile-pair p {
+      text-align: center;
+      font-size: 1em; }
+
+#committee-data img {
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+#committee-data h3 {
+  color: gray; }
+#committee-data a {
+  color: black; }
+  #committee-data a:hover {
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

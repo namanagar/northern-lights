@@ -1,0 +1,171 @@
+/* This comment is
+ * several lines long.
+ * since it uses the CSS comment syntax,
+ * it will appear in the CSS output. */
+$font-stack: 'Montserrat', sans-serif
+
+$navbar-color: gray
+$body-accent-color: #006137
+
+$highlight-color: #ebedeb //#F1F4F9
+$text-color: white
+$light-text-color: gray
+$inline-link-color: black
+
+$min-desktop-size: 768px
+
+body
+	padding-top: 70px
+	background-image: url(https://sunsetwestphoria.files.wordpress.com/2015/06/16658111180_7911b6fc3d_o.jpg)
+	background-position: 50% 50%
+	font-family: $font-stack
+
+h1, h2, h3, h4, h5, h6
+	color: $text-color
+	text-align: center
+	text-transform: uppercase
+	font-weight: bold
+	margin-bottom: 15px
+
+p
+	color: $text-color
+	font-weight: bold
+	font-size: 2em
+	text-align: center
+	@media (min-width: $min-desktop-size)
+		text-align: justify
+.text-center
+	text-align: center
+
+.custom-container
+	width: 100%
+	margin-left: auto
+	margin-right: auto
+	padding-left: 50px
+	padding-right: 50px
+
+.accent-container
+	@extend .custom-container
+	width: 100%
+	background-color: $body-accent-color
+	margin-bottom: 45px
+
+.carousel-control
+	&.left, &.right
+		background-image: none
+
+.icon-row
+	text-align: center
+	display: flex
+	justify-content: space-around
+	flex-flow: row wrap
+	i, h2, p
+		color: white
+	i
+		font-size: 5em
+		line-height: 100px
+	p
+		text-align: center
+		font-family: 'Montserrat', sans-serif
+		font-weight: normal
+
+	.logo-text-pair
+		padding-top: 20px
+		flex-grow: 1
+		max-width: 250px
+
+#navbar-white
+	background-color: $navbar-color
+	z-index: 9999
+	.navbar-nav
+		li
+			a
+				text-align: right
+				color: $text-color
+				font-size: 14px
+				font-weight: bold
+				outline: none
+				text-decoration: none
+				text-transform: uppercase
+				&:hover
+					background-color: $highlight-color
+		.open
+			a
+				background-color: white
+.navbar-fixed-top
+	.nav
+		padding: 15px 0
+	.navbar-brand
+		padding: 0 15px
+		@media (min-width: $min-desktop-size)
+			padding: 15px 0
+.icon-bar
+	background-color: black !important
+
+.dropdown-menu
+	box-shadow: none
+	li
+		a
+			color: $text-color !important
+			font-size: 17px
+			font-weight: bold
+			padding: 10px 20px
+			outline: none
+			text-decoration: none
+			text-transform: uppercase
+.active
+
+#welcome-section
+	h1
+		font-size: 3.5em
+		margin-bottom: 15px
+		margin: 0 auto
+		@media (min-width: $min-desktop-size)
+			font-size: 4.5em
+	p
+		margin-bottom: 50px
+
+#myCarousel
+	width: 100%
+	padding-top: 30px
+	margin: auto
+	margin-bottom: 50px
+	@media (min-width: $min-desktop-size)
+		width: 60%
+
+
+#profile-col
+	display: flex
+	flex-flow: column nowrap
+	justify-content: space-around
+	h3
+		font-size: 2.35em
+		line-height: 25px
+
+	.profile-pair
+		margin-bottom: 30px
+		img
+			float: left
+			width: 100%
+			margin-bottom: 15px
+			@media (min-width: $min-desktop-size)
+				width: 25%
+			height: auto
+		p
+			text-align: center
+			font-size: 1em
+
+#committee-data
+	img
+		width: 30%
+		text-align: center
+		margin-left: auto
+		margin-right: auto
+	h3
+		color: $light-text-color
+	a
+		color: $inline-link-color
+		&:hover
+			text-decoration: none
+		&:visited
+		

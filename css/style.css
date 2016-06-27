@@ -72,11 +72,11 @@ p {
 
 #welcome-section h1 {
   font-size: 8em;
-  margin-bottom: 15px;
+  margin-top: 75px;
   margin: 0 auto; }
   @media (min-width: 768px) {
     #welcome-section h1 {
-      font-size: 4.5em; } }
+      font-size: 6em; } }
 #welcome-section p {
   margin-bottom: 50px; }
 
@@ -84,7 +84,7 @@ p {
   width: 100%;
   padding-top: 30px;
   margin: auto;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
     #myCarousel {
       width: 65%; } }

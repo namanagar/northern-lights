@@ -3,7 +3,6 @@
  * since it uses the CSS comment syntax,
  * it will appear in the CSS output. */
 body {
-  padding-top: 70px;
   background-image: url(https://sunsetwestphoria.files.wordpress.com/2015/06/16658111180_7911b6fc3d_o.jpg);
   background-position: 50% 50%;
   font-family: "Amatic SC", cursive; }
@@ -61,13 +60,16 @@ p {
     text-transform: uppercase; }
     #navbar-white .navbar-nav li a:hover {
       color: #ebedeb; }
+    @media (max-width: 768px) {
+      #navbar-white .navbar-nav li a {
+        text-align: center; } }
 
-.navbar-fixed-top .nav {
+.navbar-static-top .nav {
   padding: 15px 0; }
-.navbar-fixed-top .navbar-brand {
+.navbar-static-top .navbar-brand {
   padding: 0 15px; }
   @media (min-width: 768px) {
-    .navbar-fixed-top .navbar-brand {
+    .navbar-static-top .navbar-brand {
       padding: 15px 0; } }
 
 #welcome-section h1 {

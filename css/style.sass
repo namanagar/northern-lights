@@ -15,7 +15,6 @@ $inline-link-color: black
 $min-desktop-size: 768px
 
 body
-	padding-top: 70px
 	background-image: url(https://sunsetwestphoria.files.wordpress.com/2015/06/16658111180_7911b6fc3d_o.jpg)
 	background-position: 50% 50%
 	font-family: $font-stack
@@ -72,8 +71,10 @@ p
 				text-transform: uppercase
 				&:hover
 					color: $highlight-color
+				@media (max-width: $min-desktop-size)
+					text-align: center
 					
-.navbar-fixed-top
+.navbar-static-top
 	.nav
 		padding: 15px 0
 	.navbar-brand

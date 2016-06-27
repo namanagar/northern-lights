@@ -16,18 +16,28 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 8em; }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 4em; } }
 
 h2 {
   font-size: 7.5em; }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 4em; } }
 
 p {
   color: white;
   font-weight: normal;
   font-size: 3.5em;
-  text-align: center; }
+  text-align: center;
+  line-height: 0.8em; }
   @media (min-width: 768px) {
     p {
       text-align: justify; } }
+  @media (max-width: 768px) {
+    p {
+      font-size: 2.25em; } }
 
 .text-center {
   text-align: center; }
@@ -73,7 +83,7 @@ p {
       padding: 15px 0; } }
 
 #welcome-section h1 {
-  font-size: 8em;
+  font-size: 5em;
   margin-top: 75px;
   margin: 0 auto; }
   @media (min-width: 768px) {
@@ -97,31 +107,23 @@ p {
   justify-content: space-around; }
   #profile-col h3 {
     font-size: 3.35em;
-    line-height: 25px; }
+    line-height: 40px; }
   #profile-col .profile-pair {
     margin-bottom: 30px; }
     #profile-col .profile-pair img {
-      float: left;
-      width: 90%;
+      float: center;
+      width: 100%;
       margin-bottom: 15px;
       height: auto; }
       @media (min-width: 768px) {
         #profile-col .profile-pair img {
           width: 25%; } }
     #profile-col .profile-pair p {
-      text-align: center;
+      text-align: justify;
       font-size: 3em; }
-
-#committee-data img {
-  width: 30%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-#committee-data h3 {
-  color: gray; }
-#committee-data a {
-  color: black; }
-  #committee-data a:hover {
-    text-decoration: none; }
+      @media (max-width: 768px) {
+        #profile-col .profile-pair p {
+          font-size: 2em;
+          text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

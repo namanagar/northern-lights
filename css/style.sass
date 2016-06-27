@@ -27,15 +27,23 @@ h1, h2, h3, h4, h5, h6
 	margin-bottom: 15px
 h1
 	font-size: 8em
+	@media (max-width: $min-desktop-size)
+		font-size: 4em
 h2
 	font-size: 7.5em
+	@media (max-width: $min-desktop-size)
+		font-size: 4em
+h2
 p
 	color: $text-color
 	font-weight: normal
 	font-size: 3.5em
 	text-align: center
+	line-height: .8em
 	@media (min-width: $min-desktop-size)
 		text-align: justify
+	@media (max-width: $min-desktop-size)
+		font-size: 2.25em
 .text-center
 	text-align: center
 
@@ -85,7 +93,7 @@ p
 
 #welcome-section
 	h1
-		font-size: 8em
+		font-size: 5em
 		margin-top: 75px
 		margin: 0 auto
 		@media (min-width: $min-desktop-size)
@@ -108,32 +116,21 @@ p
 	justify-content: space-around
 	h3
 		font-size: 3.35em
-		line-height: 25px
+		line-height: 40px
 
 	.profile-pair
 		margin-bottom: 30px
 		img
-			float: left
-			width: 90%
+			float: center
+			width: 100%
 			margin-bottom: 15px
 			@media (min-width: $min-desktop-size)
 				width: 25%
 			height: auto
 		p
-			text-align: center
+			text-align: justify
 			font-size: 3em
+			@media (max-width: $min-desktop-size)
+				font-size: 2em
+				text-align: center
 
-#committee-data
-	img
-		width: 30%
-		text-align: center
-		margin-left: auto
-		margin-right: auto
-	h3
-		color: $light-text-color
-	a
-		color: $inline-link-color
-		&:hover
-			text-decoration: none
-		&:visited
-		

@@ -5,8 +5,10 @@
 body {
   background-image: url(https://sunsetwestphoria.files.wordpress.com/2015/06/16658111180_7911b6fc3d_o.jpg);
   background-position: 50% 50%;
-  background-size: 100% 100%;
   font-family: "Amatic SC", cursive; }
+  @media (min-width: 768px) {
+    body {
+      background-size: 100% 100%; } }
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
@@ -30,15 +32,13 @@ h2 {
 p {
   color: white;
   font-weight: normal;
-  font-size: 3.5em;
+  font-size: 2.25em;
   text-align: center;
   line-height: 0.8em; }
   @media (min-width: 768px) {
     p {
-      text-align: justify; } }
-  @media (max-width: 768px) {
-    p {
-      font-size: 2.25em; } }
+      text-align: justify;
+      font-size: 3.5em; } }
 
 .text-center {
   text-align: center; }

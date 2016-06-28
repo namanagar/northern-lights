@@ -17,8 +17,9 @@ $min-desktop-size: 768px
 body
 	background-image: url(https://sunsetwestphoria.files.wordpress.com/2015/06/16658111180_7911b6fc3d_o.jpg)
 	background-position: 50% 50%
-	background-size: 100% 100%
 	font-family: $font-stack
+	@media (min-width: $min-desktop-size)
+		background-size: 100% 100%
 
 h1, h2, h3, h4, h5, h6
 	color: $text-color
@@ -38,13 +39,13 @@ h2
 p
 	color: $text-color
 	font-weight: normal
-	font-size: 3.5em
+	font-size: 2.25em
 	text-align: center
 	line-height: .8em
 	@media (min-width: $min-desktop-size)
 		text-align: justify
-	@media (max-width: $min-desktop-size)
-		font-size: 2.25em
+		font-size: 3.5em
+
 .text-center
 	text-align: center
 
@@ -134,4 +135,3 @@ p
 			@media (max-width: $min-desktop-size)
 				font-size: 2em
 				text-align: center
-
